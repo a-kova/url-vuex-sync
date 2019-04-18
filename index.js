@@ -1,4 +1,4 @@
-export default (store, router, params = []) => {
+module.exports = (store, router, params = []) => {
   router.onReady(route => {
     // Move params from route to state
     const paramsForPush = {};
@@ -28,7 +28,7 @@ export default (store, router, params = []) => {
     store.watch(
       (state, getters) => state[param.name] || getters[param.name],
       newValue => {
-        router.push({ query: { ...router.currentRoute.query, [urlParam]: newValue } });
+        router.push({ query: { ...router.currentRoute.query, [urlParam]: newValue } })
       }
     );
   });

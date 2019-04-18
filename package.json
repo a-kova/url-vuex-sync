@@ -1,0 +1,32 @@
+{
+  "name": "url-vuex-sync",
+  "version": "1.0.0",
+  "description": "Syncs VueJS route query with vuex",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kovalchuk91/url-vuex-sync.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vuex",
+    "vue-router",
+    "router"
+  ],
+  "author": "Andrew Kovalchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kovalchuk91/url-vuex-sync/issues"
+  },
+  "homepage": "https://github.com/Kovalchuk91/url-vuex-sync#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.0"
+  }
+}

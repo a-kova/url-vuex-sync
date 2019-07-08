@@ -2,6 +2,10 @@
 
 This plugin syncs route query with specific params from Vuex state.
 
+For example:  
+You can have a route like '/products?type=fruits'  
+And a param in vuex state "type".  
+Plugin helps to sync them, so every time url param changes - the store is being update and vice versa.
 
 ### Usage
 

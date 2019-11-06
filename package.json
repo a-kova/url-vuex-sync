@@ -1,6 +1,6 @@
 {
   "name": "url-vuex-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Syncs VueJS route query with vuex",
   "main": "index.js",
   "scripts": {

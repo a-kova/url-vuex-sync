@@ -24,11 +24,11 @@
   "homepage": "https://github.com/Kovalchuk91/url-vuex-sync#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-env": "^7.10.3",
     "jest": "^24.9.0",
-    "vue": "^2.6.10",
-    "vue-router": "^3.1.3",
-    "vuex": "^3.1.1"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.4.0"
   },
   "transform": {
     "\\.js$": "<rootDir>/node_modules/babel-jest"
